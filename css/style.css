@@ -9,7 +9,7 @@
 
 header{
     height: 75px;
-    background-color: #2c4e6e;
+    background-color: #356189;
     display: flex;
     justify-content: space-between;
 }
@@ -20,11 +20,13 @@ header{
 
 .isotipo{
     height: 55px;
+    width: 55px;
     margin: 10px;
 }
 
 .logotipo{
     height: 30px;
+    width: 215px;
     margin-top: 20px;
 }
 
@@ -43,4 +45,9 @@ header{
 .main-nav__item a{
     text-decoration: none;
     color: white;
+}
+
+.main-nav__item a:hover{
+    color: #e6e6e6;
+    border-bottom: 1px dotted #e6e6e6;
 }
